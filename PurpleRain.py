@@ -1,7 +1,5 @@
-import pygame_sdl2
+import pygame
 from random import *
-pygame_sdl2.import_as_pygame
-pygame = pygame_sdl2
 pygame.init()
 win = pygame.display.set_mode((1080, 1920))
 rain = []
